@@ -1,0 +1,22 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"haskell","version":"0.1.0"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"html","version":"0.0.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"macos-classic","version":"0.0.8"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"toml","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Editor","operation":"open","file_extension":"hs","vim_mode":false,"copilot_enabled":false,"copilot_enabled_for_language":false}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":false,"milliseconds_since_first_event":1,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":false,"milliseconds_since_first_event":237,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":50806,"type":"Edit","duration":19469,"environment":"terminal"}
+{"signed_in":true,"milliseconds_since_first_event":131350,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":131405,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":133101,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":133177,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":239708,"type":"Memory","memory_in_bytes":217530368,"virtual_memory_in_bytes":459681071104}
+{"signed_in":true,"milliseconds_since_first_event":239708,"type":"Cpu","usage_as_percentage":0.0,"core_count":8}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":47,"type":"Copilot","suggestion_id":null,"suggestion_accepted":false,"file_extension":null}
+{"signed_in":true,"milliseconds_since_first_event":78449,"type":"Memory","memory_in_bytes":170819584,"virtual_memory_in_bytes":451091562496}
+{"signed_in":true,"milliseconds_since_first_event":78449,"type":"Cpu","usage_as_percentage":2.3679504,"core_count":8}
