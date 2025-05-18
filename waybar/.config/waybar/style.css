@@ -1,0 +1,124 @@
+@import "frappe.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Blex Mono";
+    font-size: 14px;
+}
+
+.modules-left,
+.modules-right,
+.modules-center,
+#clock,
+#network,
+#wireplumber,
+#bluetooth,
+#tray {
+    border-radius: 18px;
+}
+
+.modules-left {
+    background-color: @base;
+    padding-right: 10px;
+    padding-left: 17px;
+}
+
+.modules-center {
+    background-color: @base;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.modules-right {
+    background-color: @base;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#window {
+    color: @text;
+    padding-right: 4px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 0px solid #ffffff;
+    /* color: #FFFFFF; */
+    background: transparent;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+/* -----------------------------------------------------
+ * Workspaces 
+ * ----------------------------------------------------- */
+
+#workspaces button.empty {
+    color: @surface2;
+    font-family: "Blex Mono";
+}
+
+#workspaces {
+    margin: 0px 1px 0px 1px;
+    padding: 0px 3px;
+    font-family: "Blex Mono";
+}
+
+#workspaces button {
+    padding: 0px 1.2px;
+    margin: 4px 2px;
+    color: @yellow;
+    font-family: "Blex Mono";
+}
+
+#workspaces button:hover {
+    opacity: 0.5;
+}
+
+#network {
+    color: @mauve;
+    background-color: @surface1;
+    padding: 2px 8px;
+    margin: 4px 2px;
+}
+
+#wireplumber {
+    color: @peach;
+    background-color: @surface1;
+    padding: 2px 8px;
+    margin: 4px 2px;
+}
+
+#bluetooth {
+    background-color: @surface1;
+    padding: 2px 8px;
+    margin: 4px 2px;
+    font-weight: bold;
+    color: @teal;
+}
+
+
+#clock {
+    padding-left: 10px;
+    color: @text;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#tray {
+    background-color: @surface1;
+    padding: 2px 8px;
+    margin: 4px 2px;
+}
+
+#custom-icon {
+    font-size: 18px;
+    color: @blue;
+    padding-right: 5px;
+}
+
+tooltip {
+    background: @base;
+    border: 1px solid @blue;
+}

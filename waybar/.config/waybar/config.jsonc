@@ -1,0 +1,101 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    "margin-top": 5,
+    "margin-bottom": 0,
+    "margin-left": 5,
+    "margin-right": 5,
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/icon",
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "wireplumber",
+        "bluetooth",
+        "network",
+        "tray"
+    ],
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "*": 4
+        }
+    },
+    "clock": {
+        "format": "<b>󰥔  {:%H:%M   󰃭  %d.%m}</b> ",
+        //"format": "{:%a}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<span color='#cdd6f4'><b>{}</b></span>",
+                "days": "<span color='#cdd6f4'><b>{}</b></span>",
+                "weeks": "<span color='#cdd6f4'><b>W{}</b></span>",
+                "weekdays": "<span color='#cdd6f4'><b>{}</b></span>",
+                "today": "<span color='#f38ba8'><b>{}</b></span>"
+            }
+        },
+    },
+    "hyprland/window": {
+        "format": "  {}",
+        "rewrite": {
+            "(.*) — Mozilla Firefox": "󰈹  Firefox",
+            "(.*) - nvim": " Neovim"
+        }
+    },
+    "wireplumber": {
+        "format": "{icon} <b>{volume}%</b>",
+        "format-bluetooth": "{icon}  <b>{volume}%</b>",
+        "format-bluetooth-muted": "󰝟 ",
+        "format-muted": " 󰝟 ",
+        "format-icons": {
+            "headset": "",
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ],
+        },
+        "tooltip": false,
+        "on-click": "pavucontrol",
+    },
+    "bluetooth": {
+        "format": " {status}",
+        "format-connected-battery": " {device_battery_percentage}%",
+        "on-click": "blueman-manager"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "network": {
+        "interval": 30,
+        "format-wifi": "󰤨 {essid}",
+        "format-ethernet": "󰈀  Wired",
+        "fomat-disconnected": "󱚵 Disconnected",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "Disconnected",
+    },
+    "custom/icon": {
+        "format": "󱄅",
+        "tooltip": false,
+    }
+}
