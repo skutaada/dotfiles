@@ -95,7 +95,7 @@
         "tooltip-format-disconnected": "Disconnected",
     },
     "custom/icon": {
-        "format": "󱄅",
+        "format": "󰣇",
         "tooltip": false,
     }
 }
